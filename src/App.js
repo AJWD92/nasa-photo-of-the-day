@@ -7,8 +7,9 @@ function App() {
     <div className="App">
       <p>
         Read through the instructions in the README.md file to build your NASA
-        app! Have fun 🚀!
+        app! Have fun <span role='img' aria-label='rocketship'>🚀</span>!
       </p>
+      <NasaList />
     </div>
   );
 }
