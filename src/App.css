@@ -32,12 +32,3 @@
   }
 }
 
-.spacePhoto {
-  width: 100%;
-  z-index: -2;
-  position: fixed;
-  margin: 0 auto;
-  background-position: cover;
-  background-position: center;
-  background: url(./assets/NasaBackground.jpg);
-}
