@@ -1,13 +1,16 @@
 import React from "react";
+import NasaList from "./components/NasaList";
 import "./App.css";
+
 
 function App() {
   return (
     <div className="App">
-      <p>
+      <p style={{ color: '#fff' }}>
         Read through the instructions in the README.md file to build your NASA
-        app! Have fun 🚀!
+        app! Have fun <span role='img' aria-label='rocketship'>🚀</span>!
       </p>
+      <NasaList />
     </div>
   );
 }
